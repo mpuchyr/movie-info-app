@@ -6,7 +6,7 @@ import FetchMovies from './components/FetchMovies'
 function App() {
   return (
     <div className="App">
-      <FetchMovies />
+      <FetchMovies searchQuery={'lord of the rings'}/>
     </div>
   );
 }
