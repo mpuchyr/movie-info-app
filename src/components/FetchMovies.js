@@ -19,11 +19,8 @@ function FetchMovies (props) {
         console.log(err);
     });
 
-    
     return (
-        <div>
-            <h1>Placeholder</h1>
-        </div>
+        <div></div>
     )
 }
 
