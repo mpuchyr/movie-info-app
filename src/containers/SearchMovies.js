@@ -7,7 +7,7 @@ function SearchMovies() {
 
     function userSearchQuery(event) {
         event.preventDefault()
-        setQuery(event.target.name.value)
+        setQuery((event.target.name.value).toLowerCase())
         event.target.name.value = ''
     }
 
